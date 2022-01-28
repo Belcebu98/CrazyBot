@@ -881,7 +881,7 @@ Insttala archivos necesarios
 
 *Clona este repositorio*
 
-git clone https://github.com/Baby-Ofc
+git clone https://github.com/antonia56/CrazyBot.git
 
 *Inicia la instalacion*
 
@@ -1166,7 +1166,7 @@ if (choute.message.listResponseMessage){
   imageMsg = (await leo.prepareMessageMedia(fs.readFileSync(`./media/imagen/admin.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/imagen/fake.jpg`)})).imageMessage
   buttonsMessage = {
   contentText: `${txtt}`,
-  footerText: '© Creator 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊\nInstagram: instagram.com/the_choute_', imageMessage: imageMsg,
+  footerText: '© Creator \nInstagram: instagram.com/', imageMessage: imageMsg,
   buttons: buttons1,
   headerType: 4}
   prep = leo.prepareMessageFromContent(from, { buttonsMessage }, { quoted: choute,  contextInfo: { mentionedJid: [sender,Oowner]} })
@@ -1186,7 +1186,7 @@ if (choute.message.listResponseMessage){
     imageMsg = (await leo.prepareMessageMedia(fs.readFileSync(`./media/imagen/bot-baby.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/imagen/fake.jpg`)})).imageMessage
     buttonsMessage = {
     contentText: `${txtt}`,
-    footerText: '© Creator 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊', imageMessage: imageMsg,
+    footerText: '© Creator 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵', imageMessage: imageMsg,
     buttons: buttons1,
     headerType: 4}
     all = leo.prepareMessageFromContent(from, { buttonsMessage }, { quoted: choute, contextInfo: { mentionedJid: [sender,Oowner]} })
@@ -2012,7 +2012,7 @@ _Acontinuacion te muestro, mi creador, de preferencia solo hablare si necesitas 
     {"title": 'Canal de Mi Creador',       
     "body": 'Subcribete Te Podria Interesar',  
     "thumbnail": fs.readFileSync('./media/imagen/ldeadnote.png'),
-    "sourceUrl": 'https://www.youtube.com/channel/UC-HPutaDGeTPjrCId0bXQgg?sub_confirmation=1'}}})
+    "sourceUrl": 'https://www.youtube.com/channel/?sub_confirmation=1'}}})
     break          
 
 
@@ -2577,7 +2577,7 @@ mimetype: 'audio/mp4', ptt: true, duration :-999999999999999, quoted: choute})
 fs.unlinkSync(ran)
 })
 break
-// -    -     -     - 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝕿𝖍ٌ𝖊𝕮𝖍𝖔𝖚𝖙𝖊 - - - -   
+// -    -     -     - 𝐋𝐨𝐠𝐨𝐬 𝐁𝐲 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵 - - - -   
 case 'neon':
   if (!isRegister) return reply(baby.only.usrReg)
 
