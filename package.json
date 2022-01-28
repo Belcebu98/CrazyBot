@@ -2,7 +2,7 @@
   "name": "BabyBechoso",
   "version": "99999.9.9",
   "description": "Termux only",
-  "main": "thechoute.js",
+  "main": "theCrazyBull.js",
   "directories": {
     "lib": "lib"
   },
@@ -43,8 +43,8 @@
     "brainly-scraper": "^1.0.3"
   },
   "scripts": {
-    "start": "node thechoute.js"
+    "start": "node theCrazyBull.js"
   },
-  "author": "The Choute",
-  "homepage": "https://github.com/thechoute/Baby-Ofc/readme"
+  "author": "𝐂𝐫𝐚𝐳𝐲 𝐁𝐮𝐥𝐥",
+  "homepage": "https://github.com//Baby-Ofc/readme"
 }
