@@ -49,91 +49,91 @@ clear
 wget -O ~/clearclear/usr/share/tessdata/indcleartraineddata "https://githubclearcom/tesseract-ocr/tessdata/blob/master/indcleartraineddata?raw=true"
 clear
 echo
-echo    Acabando proceso de instalacion
+echo    Instalando npm
 npm install -g npm@6 -y    > /dev/null 2>&1
 clear
 echo
-echo    Acabando proceso de instalacion.
+echo    Instalando toml
 npm install toml -y    > /dev/null 2>&1
 clear
 echo
-echo    Acabando proceso de instalacion..
+echo    Instalando crypto-js
 npm i crypto-js -y    > /dev/null 2>&1
 clear
 echo
-echo    Acabando proceso de instalacion...
+echo    Instalando moment-timezone
 npm i moment-timezone -y    > /dev/null 2>&1
 clear
 echo
-echo    Acabando proceso de instalacion.
+echo    Instalando axios
 npm i axios -y    > /dev/null 2>&1
 clear
 echo
-echo    Acabando proceso de instalacion..
+echo    Instalando node-fetch
 npm i node-fetch@2clear6clear1 - npm -y    > /dev/null 2>&1
 clear
 echo
-echo    Acabando proceso de instalacion...
+echo    Instalando requests
 npm i requests -y    > /dev/null 2>&1
 clear
 echo
-echo    Acabando proceso de instalacion
+echo    Instalando request
 npm install request --save -y    > /dev/null 2>&1
 clear
 echo
-echo    Acabando proceso de instalacion.
+echo    Instalando cfonts
 npm i cfonts -y    > /dev/null 2>&1
 clear
 echo
-echo    Acabando proceso de instalacion..
+echo    Instalando spinnies
 npm i spinnies    > /dev/null 2>&1
 clear
 echo
-echo    Acabando proceso de instalacion...
+echo    Instalando img-to-base64
 npm i image-to-base64 -y    > /dev/null 2>&1
 clear
 echo
-echo    FINALIZANDO
+echo    Instalando removeclearbg
 npm i removeclearbg -y    > /dev/null 2>&1
 clear
 echo
-echo    FINALIZANDO.
+echo    Instalando fluent-ffmpeg
 npm i fluent-ffmpeg -y    > /dev/null 2>&1
 clear
 echo
-echo    FINALIZANDO..
+echo    Instalando @adiwajshing/baileys
 npm i @adiwajshing/baileys -y    > /dev/null 2>&1
 clear
 echo
-echo    FINALIZANDO...
+echo    Instalando performance-now
 npm i performance-now -y    > /dev/null 2>&1
 clear
 echo
-echo    FINALIZANDO
+echo    Instalando form-data
 npm i form-data -y    > /dev/null 2>&1
 clear
 echo
-echo    FINALIZANDO.
+echo    Instalando yt-search
 npm i yt-search -y    > /dev/null 2>&1
 clear
 echo
-echo    FINALIZANDO..
+echo    Instalando google-it
 npm i google-it@1clear6clear1 -y    > /dev/null 2>&1
 clear
 echo
-echo    FINALIZANDO...
+echo    Instalando g-i-s
 npm i g-i-s -y    > /dev/null 2>&1
 clear
 echo
-echo    FINALIZANDO
+echo    Instalando hxz-api
 npm i hxz-api -y    > /dev/null 2>&1
 clear
 echo
-echo    FINALIZANDO.
+echo    Instalando cheerio
 npm i cheerio -y    > /dev/null 2>&1
 clear
 echo
-echo    FINALIZANDO..
+echo    Instalando qrcode
 npm i qrcode -y    > /dev/null 2>&1
 clear
 
