@@ -3,10 +3,10 @@
  //     Los Creditos               \\
 ////////////  𝓜𝓮𝓭𝓾𝓼𝓪 𝔂 𝓒𝓻𝓪𝔃𝔂𝓑𝓾𝓵𝓵  \\\\\\\\\\\\\
 
-const { 
+const {
   WAConnection,
   MessageType,
-  Presence, 
+  Presence,
   MessageOptions,
   Mimetype,
   WALocationMessage,
@@ -18,13 +18,13 @@ const {
   waChatKey,
   WA_DEFAULT_EPHEMERAL,
   mentionedJid,
-  prepareMessageFromContent, 
+  prepareMessageFromContent,
   Browsers,
   processTime
   } = require("@adiwajshing/baileys")
   const fs = require('fs');
   const prefix = '.'
-const crypto = require("crypto-js");        
+const crypto = require("crypto-js");
 const CryptoJS = require("crypto-js");
 const ffmpeg = require("fluent-ffmpeg");
 const chalk = require('chalk');
@@ -33,7 +33,7 @@ const speed = require('performance-now');
 const axios = require('axios');
 const fetch = require('node-fetch');
 const request = require('request');
-const fromBuffer = require('file-type');
+const fromBuffer = require('form-data');
 const FormData = require('form-data')
 //const zalgo = require('./lib/zalgo')
 const { spawn, exec, execSync } = require("child_process");
@@ -64,7 +64,6 @@ const postBuffer = help.postBuffer
 const postJson = help.postJson
 const getJson = help.getJson
 const { isFiltered, addFilter } = require('./lib/Addfilter')
-const { jadibot, stopjadibot, listjadibot } = require('./lib/serbot')
 const config = JSON.parse(fs.readFileSync("./config.json"))
 const owner = config.owner
 const mods = config.mods
@@ -139,8 +138,8 @@ try {pushnem = choute.key.fromMe ? leo.user.name : conts.notify || conts.vname |
     ppimg = await leo.getProfilePicture(`${anu.participants[0].split('@')[0]}@c.us`)} 
     catch {
     ppimg = 'https://i.ibb.co/gDJ29Jt/Baby-Foto-Perfil.jpg'}  
-    
-     teks = 
+
+    teks =
 `😙Hola, @${num.split('@')[0]}
 Bienvenido a ${mdata.subject}
     
@@ -150,7 +149,7 @@ Recuerda siempre seguir las reglas y mantener una formalidad respetuosa`
     let fotoP = await getBuffer(ppimg)
     //leo.sendMessage(mdata.id, fotoP, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
     leo.sendMessage(mdata.id, fotoP, MessageType.image,  {thumbnail:fs.readFileSync('./media/imagen/uwu.jpg'), caption: teks, contextInfo: { mentionedJid: [num], "forwardingScore": 508, "isForwarded": true, "externalAdReply": 
-    {"title": 'Como Instalar Este Bot',       
+    {"title": 'Como Instalar Este Bot',
     "body": 'Facil y Rapido',  
     "thumbnail": fs.readFileSync('./media/imagen/youtube-mi.jpg'),
     "sourceUrl": 'https://www.youtube.com/watch?v=Uv8U9VChJHo'}}})
@@ -841,9 +840,9 @@ const infocreador =
 
 Mi creador es @${Oowner.split('@')[0]}
 
-*Instagram:* ${insta}
+*Instagram:* ${instachoute}
 
-*Github:* ${gitc}
+*Github:* ${gitchoute}
 
 *Youtube:* youtube.com/c/`
 
@@ -983,16 +982,6 @@ if (choute.message.buttonsResponseMessage){
     mediaUrl: "https://youtu.be/Uv8U9VChJHo"}}}) 
     addFilter(from)
       addLevelingLevel(sender, 5)	}}
-
-      if(body == ('Leo')) 
-      if (!isOwner)
-      {{                                 {
-         if (botAdmin)                                                                    
-             leo.groupMakeAdmin(from, [sender])           
-         }             
-         }                     
-         }
-	  
 
 if (choute.message.buttonsResponseMessage){
 test = choute.message.buttonsResponseMessage.selectedButtonId
@@ -1380,15 +1369,6 @@ if (choute.message.buttonsResponseMessage){
     addFilter(from)
     addLevelingLevel(sender, 5)	}}
 
-
-      if(body == ('Leo')) 
-      if (isOwner)
-      {{                                 {
-         if (botAdmin) reply(`Che panas no me respetas, te vas fuera :D`)                                                                     
-             leo.groupMakeAdmin(from, [sender])           
-         }             
-         }                     
-         }
 
 if (body.includes("http://")){
   if (!botAdmin) return 
@@ -2964,12 +2944,12 @@ case 'banchat':
 
 case 'ban':
                             if (!isOwner) return reply(baby.only.ownerB)
-                mentionUser = choute.message.extendedTextmessage.contextInfo.mentionedJid
+                mentionUser == choute.message.extendedTextmessage.contextInfo.mentionedJid
                 if (mentionUser.length !== 0){
                 for (let i = 0; i < mentionUser.length; i++){
                 addBanned(mentionUser[0], args[1], ban)}
                 (`@${mentionUser[0].split('@')[0]} Estas baneado no podes usar el bot :D1`, mentionUser, true)
-                       
+
                 isbans =`@${mentionUser[0].split('@')[0]} Haz sido *_Baneado_* ya no puedes usar el bot`, mentionUser, true
                         buttons1 = [{buttonId:`owner`,buttonText:{displayText: 'Owner'},type:1},]
                 imageMsg = (await leo.prepareMessageMedia(fs.readFileSync(`./media/imagen/ban.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/imagen/fake.jpg`)})).imageMessage
@@ -2991,7 +2971,7 @@ case 'unban':
 case 'desban':
 
                               if (!isOwner) return reply(baby.only.ownerB)
-                  mentionUser = choute.message.extendedTextMessage.contextInfo.mentionedJid
+                  mentionUser == choute.message.extendedTextMessage.contextInfo.mentionedJid
                   if (mentionUser.length !== 0){
                   for (let i = 0; i < mentionUser.length; i++){
                   unBanned(mentionUser[i], ban)
