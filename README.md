@@ -3,7 +3,7 @@
 <p align="center">
 
 <p align="center">
-<a href="https://github.com/𝐂𝐫𝐚𝐳𝐲 𝐁𝐮𝐥𝐥/"><img title="Author" src="https://img.shields.io/badge/Author-𝐂𝐫𝐚𝐳𝐲 𝐁𝐮𝐥𝐥-red.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/antonia56/"><img title="Author" src="https://img.shields.io/badge/Author-𝐂𝐫𝐚𝐳𝐲 𝐁𝐮𝐥𝐥-red.svg?style=for-the-badge&logo=github"></a>
 
 <p align="center">
 
@@ -41,7 +41,7 @@ Nota: Si la instalacion sera en Pc, utiliza
 
 Para Iniciar el Bot
  ```bash
-- node thechoute
+- node theCrazyBull.js
 ```
 ### PARA WINDOWS/VPS/RDP USER💻
 
